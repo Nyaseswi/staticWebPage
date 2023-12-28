@@ -1,0 +1,68 @@
+.card {
+  
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* Adjust the background size to cover the entire element */
+  height: 100vh;
+  width: 100%; /*Ensure the card takes up the full width of its container */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.center{
+  background-color: white;
+  text-align: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 5px;
+}
+.paragraph{
+  font-weight: bold;
+}
+
+.button{
+  background-color: aqua;
+  border-radius: 25px;
+  color: white;
+  height: 36px;
+  width: 138px;
+  font-weight: bold;
+  border-width: 0px;
+}
+.fav-back{
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* Adjust the background size to cover the entire element */
+  height: 100vh;
+  width: 100%;  
+}
+.fav-head{
+  color: white;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: bold;
+  padding: 24px;
+}
+.fav-card{
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: flex-row;
+  margin: 15px;
+}
+.fav-text-heading{
+  color: #0f0e46;
+  font-family: "Roboto";
+  font-size: 23px;
+  font-weight: bold;
+}
+.fav-description{
+  color: #6c6b70;
+  font-family: "Roboto";
+  font-size: 13px;
+}
+.fav-image{
+  width: 80px;
+  height: 100px;
+}

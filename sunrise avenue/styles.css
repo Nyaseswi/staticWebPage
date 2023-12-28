@@ -1,0 +1,31 @@
+.back-flat-image{
+  background-image: url("https://media.istockphoto.com/id/1322575582/photo/exterior-view-of-modern-apartment-building-offering-luxury-rental-units-in-silicon-valley.jpg?s=612x612&w=0&k=20&c=7ipOB2nGt7JB-rln2YM1wxQ2NI4ZZirsxSn8Ko9pk-k=");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* Adjust the background size to cover the entire element */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.center{
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 35%;
+    
+}
+.sunrise-color{
+    color: orange;
+}
+.move-color{
+    color: grey;
+}
+.button{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    width: 7%;
+    height: 15%;
+}
